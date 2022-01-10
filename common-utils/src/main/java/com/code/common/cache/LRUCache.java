@@ -108,7 +108,7 @@ public class LRUCache<K, V> {
 
         @Override
         public String toString() {
-            return "Node {key = " + value + ", value = " + value + "}";
+            return "Node {key = " + key + ", value = " + value + "}";
         }
     }
 }
